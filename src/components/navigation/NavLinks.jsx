@@ -1,11 +1,12 @@
-import { Link } from "react-router-dom";
+"use client"
+import { Link } from "react-router-dom"
+const linkStyles = "hover:text-red focus:text-red focus" // Your original linkStyles constant
 
-const linkStyles = "hover:text-red focus:text-red focus";
-// ring-offset-gray-600
-
-function NavLinks({ onToggleNav, styles }) {
+const NavLinks = ({ onToggleNav, styles }) => {
   return (
     <ul className={styles}>
+      {" "}
+      {/* Ensure the 'styles' prop is applied here */}
       <li>
         <Link to="/" className={linkStyles} onClick={onToggleNav}>
           Home
@@ -16,19 +17,14 @@ function NavLinks({ onToggleNav, styles }) {
           About
         </Link>
       </li>
-      <li>
-        <Link to="/schedule" className={linkStyles} onClick={onToggleNav}>
-          Schedule
-        </Link>
-      </li>
-      <li>
-        <Link to="/pricing" className={linkStyles} onClick={onToggleNav}>
-          Pricing
-        </Link>
-      </li>
-      <li>
+     <li>
         <Link to="/classes" className={linkStyles} onClick={onToggleNav}>
           Classes
+        </Link>
+      </li>
+      <li>
+        <Link to="/tracker" className={linkStyles} onClick={onToggleNav}>
+          Nutrition Tracker
         </Link>
       </li>
       <li>
@@ -37,7 +33,7 @@ function NavLinks({ onToggleNav, styles }) {
         </Link>
       </li>
     </ul>
-  );
+  )
 }
 
-export default NavLinks;
+export default NavLinks

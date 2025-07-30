@@ -6,7 +6,7 @@ import Schedule from "./Pages/Schedule"
 import Contact from "./Pages/Contact"
 import Pricing from "./Pages/Pricing"
 import Classes from "./Pages/Classes"
-import FitnessClubTracker from "./FitnessClubTracker" // Import the new component
+import FitnessClubTracker from "./Pages/FitnessClubTracker" // Import the new component
 import Footer from "./components/footer/Footer"
 import ScrollToTop from "./components/ScrollToTop"
 
@@ -21,7 +21,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="pricing" element={<Pricing />} />
         <Route path="classes" element={<Classes />} />
-        <Route path="tracker" element={<FitnessClubTracker />} /> {/* New route for the tracker */}
+        <Route path="tracker" element={<FitnessClubTracker />} />
       </Routes>
       <Footer />
       <ScrollToTop />

@@ -1,8 +1,9 @@
- const config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   darkMode: ["class"],
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx}", // Updated to only include .js and .jsx
+    "./src/**/*.{js,jsx}", // Ensure this correctly points to your source files
   ],
   prefix: "",
   theme: {
@@ -60,7 +61,7 @@
         // Your custom color palette
         transparent: "transparent",
         white: "#ffffff",
-        red: "#ff0336",
+        red: "#ff0336", // Keeping your custom red definition
         gray: {
           50: "#efefef",
           100: "#dedede",
@@ -117,13 +118,6 @@
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],
     },
-    fontWeight: {
-      thin: "100",
-      regular: "400",
-      medium: "500",
-      semibold: "600",
-      bold: "700",
-    },
     screens: {
       xsm: "375px",
       sm: "450px",
@@ -136,5 +130,3 @@
   },
   plugins: [require("tailwindcss-animate")],
 }
-
-export default config
