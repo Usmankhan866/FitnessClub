@@ -11,22 +11,22 @@ const linkStyles =
 const socialMediaLinks = [
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/sharjeel-siddiqui-599870248/", // Replace with your actual Facebook page URL
+    url: "https://www.linkedin.com/in/usman-khan-55bb3022a/", // Replace with your actual Facebook page URL
     icon: <FaLinkedin />,
   },
   {
     name: "Github",
-    url: "https://github.com/sharjeel-siddiqui12", // Replace with your actual Twitter profile URL
+    url: "https://github.com/Usmankhan866", // Replace with your actual Twitter profile URL
     icon: <FaGithub />,
   },
   {
     name: "Instagram",
-    url: "https://www.instagram.com/sharjeel_.siddiqui._/", // Replace with your actual Pinterest profile URL
+    url: "https://www.instagram.com/usman_.143/", // Replace with your actual Pinterest profile URL
     icon: <FaInstagram />,
   },
   {
     name: "Facebook",
-    url: "https://www.facebook.com/sharjeel.siddiqui15", // Replace with your actual YouTube channel URL
+    url: "#", 
     icon: <FaFacebookF />,
   },
 ];

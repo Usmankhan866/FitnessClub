@@ -9,11 +9,11 @@ function Copyright() {
       <p>
         Designed by{" "}
         <Link
-          to="https://sharjeel-siddiqui.vercel.app"
+          to="https://uk-developer.vercel.app/"
           target="_blank"
           className="focus text-red"
         >
-          Sharjeel Siddiqui
+          Usman Khan
         </Link>
       </p>
     </div>

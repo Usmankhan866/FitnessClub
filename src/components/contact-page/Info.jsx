@@ -13,10 +13,10 @@ function Info() {
       </p>
       <div className="grid 2xl:grid-cols-2 2xl:gap-y-8">
         <div>
-          <h4 className={headingStyles}>Karachi, Pakistan</h4>
+          <h4 className={headingStyles}>Islamabad, Pakistan</h4>
           <address className="font-medium not-italic text-gray-300">
-            Shah Faisal Colony
-            <br /> Karachi
+            Islamabad
+            <br /> Pakistan
           </address>
         </div>
         <div>
@@ -34,13 +34,13 @@ function Info() {
             href="tel:+98-21-225-429-71"
             className="block font-medium text-gray-300"
           >
-            +92 31523697586
+            +92 3150431096
           </a>
           <a
             href="sharjeelsiddiqui00@gmail.com"
             className="block font-medium text-gray-300"
           >
-            sharjeelsiddiqui00@gmail.com
+            usmankhan86622@gmail.com
           </a>
         </div>
         <div>
